@@ -1,0 +1,38 @@
+﻿spring:
+  datasource:
+    name: test
+    url: jdbc:mysql://139.9.7.162:3306/bracelet
+    username: root
+    password: hzx200099
+    # 使用druid数据源
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+    initialSize: 5
+    maxActive: 20
+    maxWait: 60000
+    minIdle: 5
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    filters: stat,wall,log4j
+    maxOpenPreparedStatements: 20
+    useGlobalDataSourceStat: true
+    onnectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+  resources:
+    static-locations: classpath:/META-INF/resources/,classpath:/resources/,
+      classpath:/static/,classpath:/public/,file:/qrcode/,
+      file:/guidepicture/
+  thymeleaf:
+    cache: false
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+
+
+server:
+  port: 8989

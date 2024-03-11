@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Main-Class: com.bracelet.BraceletApplication
+Class-Path: spring-boot-starter-logging-2.2.6.RELEASE.jar classmate-1.5.
+ 1.jar reactive-streams-1.0.3.jar jackson-datatype-jsr310-2.10.3.jar net
+ ty-handler-4.1.48.Final.jar spring-boot-starter-thymeleaf-2.2.6.RELEASE
+ .jar netty-codec-4.1.48.Final.jar jconsole.jar spring-data-keyvalue-2.2
+ .6.RELEASE.jar unbescape-1.1.6.RELEASE.jar spring-tx-5.2.5.RELEASE.jar 
+ jackson-core-2.10.3.jar tomcat-embed-core-9.0.33.jar spring-context-sup
+ port-5.2.5.RELEASE.jar jackson-databind-2.10.3.jar okio-leancloud-1.6.0
+ .jar mybatis-spring-boot-autoconfigure-2.1.0.jar commons-pool2-2.7.0.ja
+ r slf4j-api-1.7.30.jar logback-core-1.2.3.jar snakeyaml-1.25.jar spring
+ -webmvc-5.2.5.RELEASE.jar thymeleaf-3.0.11.RELEASE.jar spring-boot-auto
+ configure-2.2.6.RELEASE.jar httpclient-4.3.5.jar java-sdk-0.1.6.jar spr
+ ing-data-commons-2.2.6.RELEASE.jar log4j-api-2.12.1.jar spring-boot-2.2
+ .6.RELEASE.jar tomcat-embed-websocket-9.0.33.jar log4j-1.2.17.jar mybat
+ is-generator-core-1.3.5.jar jul-to-slf4j-1.7.30.jar spring-core-5.2.5.R
+ ELEASE.jar spring-jcl-5.2.5.RELEASE.jar netty-resolver-4.1.48.Final.jar
+  spring-aop-5.2.5.RELEASE.jar druid-1.0.31.jar spring-web-5.2.5.RELEASE
+ .jar thymeleaf-extras-java8time-3.0.4.RELEASE.jar jackson-module-parame
+ ter-names-2.10.3.jar spring-data-redis-2.2.6.RELEASE.jar spring-boot-st
+ arter-web-2.2.6.RELEASE.jar spring-boot-starter-jdbc-2.2.6.RELEASE.jar 
+ android-stub-0.1.1.jar thymeleaf-spring5-3.0.11.RELEASE.jar log4j-core-
+ 2.12.1.jar httpclient-4.3.5.jar spring-expression-5.2.5.RELEASE.jar htt
+ pcore-4.4.13.jar java-sdk-0.1.6.jar spring-boot-starter-2.2.6.RELEASE.j
+ ar spring-boot-starter-validation-2.2.6.RELEASE.jar jakarta.validation-
+ api-2.0.2.jar tools.jar spring-boot-starter-tomcat-2.2.6.RELEASE.jar ja
+ ckson-datatype-jdk8-2.10.3.jar spring-jdbc-5.2.5.RELEASE.jar jakarta.an
+ notation-api-1.3.5.jar mysql-connector-java-8.0.19.jar tomcat-embed-el-
+ 9.0.33.jar attoparser-2.0.5.RELEASE.jar fastjson-leancloud-1.1.39.jar h
+ ibernate-validator-6.0.18.Final.jar commons-io-1.3.2.jar spring-boot-de
+ vtools-2.2.6.RELEASE.jar netty-buffer-4.1.48.Final.jar mybatis-3.5.2.ja
+ r okhttp-leancloud-2.6.0.jar spring-oxm-5.2.5.RELEASE.jar netty-common-
+ 4.1.48.Final.jar spring-boot-starter-json-2.2.6.RELEASE.jar jedis-3.0.1
+ .jar java-jwt-2.2.0.jar leancloud-common-0.1.13.jar logback-classic-1.2
+ .3.jar log4j-to-slf4j-2.12.1.jar spring-boot-starter-data-redis-2.2.6.R
+ ELEASE.jar mybatis-spring-2.0.2.jar commons-codec-1.13.jar spring-conte
+ xt-5.2.5.RELEASE.jar HikariCP-3.4.2.jar spring-beans-5.2.5.RELEASE.jar 
+ lettuce-core-5.2.2.RELEASE.jar mybatis-spring-boot-starter-2.1.0.jar ne
+ tty-transport-4.1.48.Final.jar jboss-logging-3.4.1.Final.jar jackson-an
+ notations-2.10.3.jar mybatis-generator-core-1.3.5.jar reactor-core-3.3.
+ 4.RELEASE.jar json-20160212.jar
+
